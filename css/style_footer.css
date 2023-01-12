@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    height: 1500px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* gap: 10%; */
+
+    height: 100%;
+
+    background-color: #0A0A0A;
+    /* border: 10px solid silver; */
+}
+
+
+/* .main_custom {
+    border: 2px solid rgb(61, 61, 188);
+    
+}*/
+
+/* ---------------------------MAIN_CUSTOM---------------------------------- */
+
+/* ---------------------------HEADER_CUSTOM---------------------------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #0A0A0A;
+    /* border: 2px solid red; */
+}
+
+/* .header {
+    background-color: red;
+    border: 2px solid rgb(110, 41, 41);
+} */
+
+.heading_sait {
+    /* background-color: rgb(233, 100, 100);
+    border: 2px solid rgb(110, 41, 41); */
+    margin: 2%;
+    flex-basis: 25%;
+    min-height: 50%;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    
+    flex-grow: 0.3;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.2;
+
+    /* background-color: rgb(233, 100, 100);
+    border: 2px solid rgb(110, 41, 41); */
+}
+
+.nav_button {
+    /* background-color: rgb(159, 96, 96);
+    border: 2px solid rgb(110, 41, 41); */
+    display: inline-flex;
+    gap: 10%;
+    align-self: center;
+
+}
+
+.button {
+    /* background-color: rgb(94, 0, 0);
+    border: 2px solid rgb(110, 41, 41); */
+    display: inline-flex;
+    padding-right: 15px;
+    padding-top: 6%;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #EFEFEF;
+    
+
+}
+
+/* ---------------------------END_HEADER_CUSTOM---------------------------------- */
+
+/* ---------------------------_MAIN_CUSTOM---------------------------------- */
+
+/* ---------------------------_MAIN_CUSTOM_---------------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+
+
+    flex: 1;
+}
+
+/* ---------------------------_MAIN_CUSTOM_---------------------------------- */
+
+/* ---------------------------_BLOCK_CUSTOM_---------------------------------- */
+.block_1 {
+    /* border: 2px solid silver;
+    background-color: aqua; */
+
+    flex: 0.3;
+}
+
+/* ---------------------------END_BLOCK_CUSTOM_---------------------------------- */
+
+/* ---------------------------_CONTACTS_CUSTOM_---------------------------------- */
+.contacts {
+    background-color: #D9D9D9;
+
+    flex: 0.2;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.block_contacts {
+    /* border: 2px solid black; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 128px;
+    line-height: 156px;
+    /* identical to box height */
+
+    letter-spacing: 0.44em;
+
+    color: #000000;
+}
+
+/* ---------------------------END_CONTACTS_CUSTOM_---------------------------------- */
+
+/* ---------------------------_BLOCK_2_CUSTOM_---------------------------------- */
+.block_2 {
+    /* border: 2px solid silver;
+    background-color: blue; */
+
+    flex: 0.1;
+}
+
+/* ---------------------------END_BLOCK_2_CUSTOM_---------------------------------- */
+
+/* ---------------------------_CONTAINER_CONTACTS_CUSTOM_---------------------------------- */
+.container_contacts {
+    /* border: 2px solid silver;
+    background-color: tomato; */
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+/* ---------------------------END_CONTAINER_CONTACTS_CUSTOM_---------------------------------- */
+.empty_block {
+    /* border: 2px solid silver;
+    background-color: aqua; */
+    flex: 0.1;
+}
+/* ---------------------------_BLOCK_---------------------------------- */
+.item {
+    background-color: #D9D9D9;
+}
+
+.item_contacts {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* ---------------------------END_BLOCK_---------------------------------- */
+
+
+
+.nomer {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 0.44em;
+
+    color: #000000;
+}
+
+.mobile {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 0.44em;
+
+    color: #000000;
+}
+
+/* ---------------------------_CONTAINER_LOGO_---------------------------------- */
+
+.container_logo {
+    display: flex;
+    justify-content: space-around;
+    flex: 0.5;
+    /* background-color: brown; */
+
+
+}
+
+.item_logo {
+    flex-basis: 20%;
+
+
+    /* border: 2px solid black; */
+}
+
+cont_logo {
+    /* border: 2px solid silver; */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.sss {
+    position: relative;
+    background-position: center;
+}
+
+
+.block_3 {
+    flex: 0.2;
+}
+
+
+
+
+
+
+
+
+
+
+

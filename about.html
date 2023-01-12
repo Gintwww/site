@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_about.css">
+    <title>О себе</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            
+            <div class="heading_sait">
+    
+                Персональный сайт<br>
+                учителя физической культуры<br> 
+    
+            </div>
+    
+                
+            <div class="navigation">
+                <!-- navigation -->
+                <div class="nav_button">
+                    <a href="index.html" class="button">home</a>
+                    <a href="about.html" class="button">about</a>
+                    <a href="footer.html" class="button">footer</a>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="main_custom main">
+                <!-- main_custom main -->
+                <div class="container_main">
+                    <!-- container_main -->
+                    <div class="container_photo">
+                        
+                        
+                    </div>
+                    <div class="container_text">
+                        О личном: “Безумно можно быть первым”<br>
+                        <br>
+                        О жизни: “Лучше быть последним — первым, чем первым — последним.
+                    </div>
+                </div>
+            </div>
+
+            <div class="row_1"></div>
+
+            <div class="main_custom about">
+                
+                <div class="block_about">
+                    <div class="title_about title_1">ФИО</div>
+                    <div class="title_about title_2">Дата рождения</div>
+                    <div class="title_about title_3">Место учёбы</div>
+                </div>
+    
+                <div class="block_about_text">
+                    <div class="text_about text_1">Модоров Максим Иванович</div>
+                    <div class="text_about text_2">21.05.2002</div>
+                    <div class="text_about text_3">Горно-Алтайский государственный университет профиль обучения "Физическая культура и Безопасность жизнедеятельности"</div>
+                </div>
+            </div>
+    
+            <div class="row_2"></div>
+
+            <div class="main_custom heading_sport">
+                Спортивные достижения
+            </div>
+    
+            <div class="row_3"></div>
+
+            <div class="main_custom sport_achievements">
+                <div class="sport_information">
+                    <div class="block_information">
+                        Занимаюсь легкой атлетикой в<br> г. Горно-Алтайск, РСДЮШС под руководством тренера Владимира Ивановича Белобородова.<br>
+                        <br>1 взрослый разряд, участник, призер, победитель республиканских соревнований, участник СФО.<br>
+                        <br>Победитель в I-ой межрегиональной научно-практической конференции<br> "Формирование здорового образа жизни: Традиции и Инновации".
+                    </div>
+                </div>
+    
+                <div class="container_charter">
+                    <div class="container_charter_photo">
+                        <img src="gram/1.jpg">
+                        <img src="gram/2.jpg">
+                        <img src="gram/3.jpg">
+                        <img src="gram/4.jpg">
+                        <img src="gram/5.jpg">
+                        <img src="gram/6.jpg">
+                        <img src="gram/7.jpg">
+                        <img src="gram/8.jpg">
+                        <img src="gram/9.jpg">
+                        <img src="gram/10.jpg">
+                        <img src="gram/11.jpg">
+                        <img src="gram/12.jpg">
+                        <img src="gram/13.jpg">
+                        <img src="gram/14.jpg">
+                        <img src="gram/15.jpg">
+                        <img src="gram/16.jpg">
+                        <img src="gram/17.jpg">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+        
+    <script>
+        var indexValue_1 = 0;
+        function slider_about() {
+            setTimeout(slider_about, 1500)
+            var x;
+            const img = document.querySelectorAll("img");
+            for(x = 0; x < img.length; x++)
+            {
+                img[x].style.display = "none";
+            } 
+            indexValue_1++;
+            if(indexValue_1 > img.length)
+            {
+                indexValue_1 = 1
+            }
+            img[indexValue_1 - 1].style.display = "block";
+
+        }
+        slider_about();
+
+
+
+    </script>
+        
+
+
+
+
+
+
+
+
+
+</body>
+</html>
